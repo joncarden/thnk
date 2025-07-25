@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E123456789ABCDEF01234567 /* ThnkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E123456789ABCDEF01234568 /* ThnkApp.swift */; };
+		E123456789ABCDEF01234569 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E123456789ABCDEF0123456A /* ContentView.swift */; };
+		E123456789ABCDEF0123456B /* ThnkDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E123456789ABCDEF0123456C /* ThnkDataModel.xcdatamodeld */; };
+		E123456789ABCDEF0123456E /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E123456789ABCDEF0123456F /* AudioManager.swift */; };
+		E123456789ABCDEF01234570 /* SpeechService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E123456789ABCDEF01234571 /* SpeechService.swift */; };
+		E123456789ABCDEF01234572 /* ClaudeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E123456789ABCDEF01234573 /* ClaudeService.swift */; };
+		E123456789ABCDEF01234574 /* PatternService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E123456789ABCDEF01234575 /* PatternService.swift */; };
+		E123456789ABCDEF01234576 /* RecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E123456789ABCDEF01234577 /* RecordingView.swift */; };
+		E123456789ABCDEF01234578 /* AnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E123456789ABCDEF01234579 /* AnalysisView.swift */; };
+		E123456789ABCDEF0123457A /* SuggestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E123456789ABCDEF0123457B /* SuggestionView.swift */; };
+		E123456789ABCDEF0123457C /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E123456789ABCDEF0123457D /* ShareSheet.swift */; };
+		E123456789ABCDEF0123457E /* EmotionalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E123456789ABCDEF0123457F /* EmotionalEntry.swift */; };
+		E123456789ABCDEF01234580 /* AnalysisResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = E123456789ABCDEF01234581 /* AnalysisResult.swift */; };
+		E123456789ABCDEF01234582 /* EmotionPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = E123456789ABCDEF01234583 /* EmotionPattern.swift */; };
+		E123456789ABCDEF01234594 /* ProcessingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E123456789ABCDEF01234595 /* ProcessingView.swift */; };
+		E123456789ABCDEF01234598 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E123456789ABCDEF01234599 /* SplashView.swift */; };
+		E123456789ABCDEF01234601 /* LoadingSplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E123456789ABCDEF01234602 /* LoadingSplashView.swift */; };
+		E123456789ABCDEF0123459G /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E123456789ABCDEF0123459H /* Assets.xcassets */; };
+		E123456789ABCDEF0123459I /* splash-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E123456789ABCDEF0123459J /* splash-icon.png */; };
+		E123456789ABCDEF01234603 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = E123456789ABCDEF01234604 /* splash.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E123456789ABCDEF01234568 /* ThnkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThnkApp.swift; sourceTree = "<group>"; };
+		E123456789ABCDEF0123456A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E123456789ABCDEF0123456D /* ThnkDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ThnkDataModel.xcdatamodel; sourceTree = "<group>"; };
+		E123456789ABCDEF0123456F /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		E123456789ABCDEF01234571 /* SpeechService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechService.swift; sourceTree = "<group>"; };
+		E123456789ABCDEF01234573 /* ClaudeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeService.swift; sourceTree = "<group>"; };
+		E123456789ABCDEF01234575 /* PatternService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternService.swift; sourceTree = "<group>"; };
+		E123456789ABCDEF01234577 /* RecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingView.swift; sourceTree = "<group>"; };
+		E123456789ABCDEF01234579 /* AnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisView.swift; sourceTree = "<group>"; };
+		E123456789ABCDEF0123457B /* SuggestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuggestionView.swift; sourceTree = "<group>"; };
+		E123456789ABCDEF0123457D /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
+		E123456789ABCDEF0123457F /* EmotionalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionalEntry.swift; sourceTree = "<group>"; };
+		E123456789ABCDEF01234581 /* AnalysisResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisResult.swift; sourceTree = "<group>"; };
+		E123456789ABCDEF01234583 /* EmotionPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionPattern.swift; sourceTree = "<group>"; };
+		E123456789ABCDEF01234584 /* thnk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thnk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E123456789ABCDEF01234585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E123456789ABCDEF01234595 /* ProcessingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessingView.swift; sourceTree = "<group>"; };
+		E123456789ABCDEF01234599 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		E123456789ABCDEF01234602 /* LoadingSplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingSplashView.swift; sourceTree = "<group>"; };
+		E123456789ABCDEF0123459H /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E123456789ABCDEF0123459J /* splash-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash-icon.png"; sourceTree = "<group>"; };
+		E123456789ABCDEF01234604 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E123456789ABCDEF01234586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E123456789ABCDEF01234587 = {
+			isa = PBXGroup;
+			children = (
+				E123456789ABCDEF01234588 /* thnk */,
+				E123456789ABCDEF01234589 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E123456789ABCDEF01234588 /* thnk */ = {
+			isa = PBXGroup;
+			children = (
+				E123456789ABCDEF0123458A /* App */,
+				E123456789ABCDEF0123458B /* Views */,
+				E123456789ABCDEF0123458C /* Services */,
+				E123456789ABCDEF0123458D /* Models */,
+				E123456789ABCDEF0123458E /* Core Data */,
+				E123456789ABCDEF0123458F /* Resources */,
+			);
+			path = thnk;
+			sourceTree = "<group>";
+		};
+		E123456789ABCDEF01234589 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E123456789ABCDEF01234584 /* thnk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E123456789ABCDEF0123458A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E123456789ABCDEF01234568 /* ThnkApp.swift */,
+				E123456789ABCDEF0123456A /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E123456789ABCDEF0123458B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E123456789ABCDEF01234577 /* RecordingView.swift */,
+				E123456789ABCDEF01234579 /* AnalysisView.swift */,
+				E123456789ABCDEF0123457B /* SuggestionView.swift */,
+				E123456789ABCDEF0123457D /* ShareSheet.swift */,
+				E123456789ABCDEF01234595 /* ProcessingView.swift */,
+				E123456789ABCDEF01234599 /* SplashView.swift */,
+				E123456789ABCDEF01234602 /* LoadingSplashView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E123456789ABCDEF0123458C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E123456789ABCDEF0123456F /* AudioManager.swift */,
+				E123456789ABCDEF01234571 /* SpeechService.swift */,
+				E123456789ABCDEF01234573 /* ClaudeService.swift */,
+				E123456789ABCDEF01234575 /* PatternService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		E123456789ABCDEF0123458D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E123456789ABCDEF0123457F /* EmotionalEntry.swift */,
+				E123456789ABCDEF01234581 /* AnalysisResult.swift */,
+				E123456789ABCDEF01234583 /* EmotionPattern.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E123456789ABCDEF0123458E /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				E123456789ABCDEF0123456C /* ThnkDataModel.xcdatamodeld */,
+			);
+			path = "Core Data";
+			sourceTree = "<group>";
+		};
+		E123456789ABCDEF0123458F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E123456789ABCDEF01234585 /* Info.plist */,
+				E123456789ABCDEF0123459H /* Assets.xcassets */,
+				E123456789ABCDEF0123459J /* splash-icon.png */,
+				E123456789ABCDEF01234604 /* splash.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E123456789ABCDEF01234590 /* thnk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E123456789ABCDEF01234591 /* Build configuration list for PBXNativeTarget "thnk" */;
+			buildPhases = (
+				E123456789ABCDEF01234592 /* Sources */,
+				E123456789ABCDEF01234586 /* Frameworks */,
+				E123456789ABCDEF01234593 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = thnk;
+			productName = thnk;
+			productReference = E123456789ABCDEF01234584 /* thnk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E123456789ABCDEF0123459B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					E123456789ABCDEF01234590 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = E123456789ABCDEF0123459A /* Build configuration list for PBXProject "thnk" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E123456789ABCDEF01234587;
+			productRefGroup = E123456789ABCDEF01234589 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E123456789ABCDEF01234590 /* thnk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E123456789ABCDEF01234593 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E123456789ABCDEF0123459G /* Assets.xcassets in Resources */,
+				E123456789ABCDEF0123459I /* splash-icon.png in Resources */,
+				E123456789ABCDEF01234603 /* splash.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E123456789ABCDEF01234592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E123456789ABCDEF01234569 /* ContentView.swift in Sources */,
+				E123456789ABCDEF01234567 /* ThnkApp.swift in Sources */,
+				E123456789ABCDEF0123456B /* ThnkDataModel.xcdatamodeld in Sources */,
+				E123456789ABCDEF0123456E /* AudioManager.swift in Sources */,
+				E123456789ABCDEF01234570 /* SpeechService.swift in Sources */,
+				E123456789ABCDEF01234572 /* ClaudeService.swift in Sources */,
+				E123456789ABCDEF01234574 /* PatternService.swift in Sources */,
+				E123456789ABCDEF01234576 /* RecordingView.swift in Sources */,
+				E123456789ABCDEF01234578 /* AnalysisView.swift in Sources */,
+				E123456789ABCDEF0123457A /* SuggestionView.swift in Sources */,
+				E123456789ABCDEF0123457C /* ShareSheet.swift in Sources */,
+				E123456789ABCDEF01234594 /* ProcessingView.swift in Sources */,
+				E123456789ABCDEF01234598 /* SplashView.swift in Sources */,
+				E123456789ABCDEF01234601 /* LoadingSplashView.swift in Sources */,
+				E123456789ABCDEF0123457E /* EmotionalEntry.swift in Sources */,
+				E123456789ABCDEF01234580 /* AnalysisResult.swift in Sources */,
+				E123456789ABCDEF01234582 /* EmotionPattern.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E123456789ABCDEF0123459C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E123456789ABCDEF0123459D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E123456789ABCDEF0123459E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 749H279K2D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = thnk/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = thnk;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "thnk needs microphone access to record your emotional voice notes for analysis. Your voice data is processed on-device and only text transcripts are sent to our AI service for emotional insights.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "thnk uses speech recognition to convert your voice notes into text for emotional analysis. All speech processing happens on your device to protect your privacy.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "armv7 microphone";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thnk.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1";
+			};
+			name = Debug;
+		};
+		E123456789ABCDEF0123459F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 749H279K2D;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = thnk/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = thnk;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "thnk needs microphone access to record your emotional voice notes for analysis. Your voice data is processed on-device and only text transcripts are sent to our AI service for emotional insights.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "thnk uses speech recognition to convert your voice notes into text for emotional analysis. All speech processing happens on your device to protect your privacy.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = "armv7 microphone";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thnk.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E123456789ABCDEF01234591 /* Build configuration list for PBXNativeTarget "thnk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E123456789ABCDEF0123459E /* Debug */,
+				E123456789ABCDEF0123459F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E123456789ABCDEF0123459A /* Build configuration list for PBXProject "thnk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E123456789ABCDEF0123459C /* Debug */,
+				E123456789ABCDEF0123459D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E123456789ABCDEF0123456C /* ThnkDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E123456789ABCDEF0123456D /* ThnkDataModel.xcdatamodel */,
+			);
+			currentVersion = E123456789ABCDEF0123456D /* ThnkDataModel.xcdatamodel */;
+			path = ThnkDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E123456789ABCDEF0123459B /* Project object */;
+}
