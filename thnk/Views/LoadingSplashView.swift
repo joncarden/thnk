@@ -5,18 +5,15 @@ struct LoadingSplashView: View {
     
     var body: some View {
         ZStack {
-            // Clean background matching app theme
-            Color(.systemBackground)
-                .ignoresSafeArea()
-            
-            // Simple splash image - clean and centered
-            Image("splash")
+            // Full bleed splash image
+            Image("Splash")
                 .resizable()
-                .aspectRatio(contentMode: .fit)
+                .aspectRatio(contentMode: .fill)
+                .ignoresSafeArea()
                 .opacity(imageOpacity)
         }
         .onAppear {
-            // Simple fade-in animation for the splash image
+            // Simple fade-in animation
             withAnimation(.easeOut(duration: 0.4)) {
                 imageOpacity = 1.0
             }

@@ -23,9 +23,8 @@
 		E123456789ABCDEF01234582 /* EmotionPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = E123456789ABCDEF01234583 /* EmotionPattern.swift */; };
 		E123456789ABCDEF01234594 /* ProcessingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E123456789ABCDEF01234595 /* ProcessingView.swift */; };
 		E123456789ABCDEF01234598 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E123456789ABCDEF01234599 /* SplashView.swift */; };
-		E123456789ABCDEF01234601 /* LoadingSplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E123456789ABCDEF01234602 /* LoadingSplashView.swift */; };
 		E123456789ABCDEF0123459G /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E123456789ABCDEF0123459H /* Assets.xcassets */; };
-		E123456789ABCDEF0123459I /* splash-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E123456789ABCDEF0123459J /* splash-icon.png */; };
+		E123456789ABCDEF01234601 /* LoadingSplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E123456789ABCDEF01234602 /* LoadingSplashView.swift */; };
 		E123456789ABCDEF01234603 /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = E123456789ABCDEF01234604 /* splash.png */; };
 /* End PBXBuildFile section */
 
@@ -48,10 +47,9 @@
 		E123456789ABCDEF01234585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E123456789ABCDEF01234595 /* ProcessingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessingView.swift; sourceTree = "<group>"; };
 		E123456789ABCDEF01234599 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
-		E123456789ABCDEF01234602 /* LoadingSplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingSplashView.swift; sourceTree = "<group>"; };
 		E123456789ABCDEF0123459H /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E123456789ABCDEF0123459J /* splash-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash-icon.png"; sourceTree = "<group>"; };
-		E123456789ABCDEF01234604 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash.png"; sourceTree = "<group>"; };
+		E123456789ABCDEF01234602 /* LoadingSplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingSplashView.swift; sourceTree = "<group>"; };
+		E123456789ABCDEF01234604 /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,7 +149,6 @@
 			children = (
 				E123456789ABCDEF01234585 /* Info.plist */,
 				E123456789ABCDEF0123459H /* Assets.xcassets */,
-				E123456789ABCDEF0123459J /* splash-icon.png */,
 				E123456789ABCDEF01234604 /* splash.png */,
 			);
 			path = Resources;
@@ -216,7 +213,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E123456789ABCDEF0123459G /* Assets.xcassets in Resources */,
-				E123456789ABCDEF0123459I /* splash-icon.png in Resources */,
 				E123456789ABCDEF01234603 /* splash.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,7 +394,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -430,7 +426,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -15,8 +15,10 @@ struct RecordingView: View {
     private let pulseAnimationDuration: Double = 1.2
     
     var body: some View {
-        VStack(spacing: 40) {
-            Spacer()
+        VStack(spacing: hasAnalysis ? 0 : 40) {
+            if !hasAnalysis {
+                Spacer()
+            }
             
             Group {
             if hasAnalysis && !isRecording && !isProcessing {
@@ -86,9 +88,11 @@ struct RecordingView: View {
             }
             }
             
-            Spacer()
+            if !hasAnalysis {
+                Spacer()
+            }
             
-            // Fresh Start button and date - only on main recording page (no analysis)
+            // Fresh Start button and date - only on main recording page (no analysis)  
             if !hasAnalysis && !isRecording && !isProcessing {
                 VStack(spacing: 8) {
                     Button(action: onFreshStart) {

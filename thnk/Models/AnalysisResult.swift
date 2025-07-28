@@ -20,7 +20,7 @@ struct AnalysisResult: Identifiable, Codable {
         let timestamp = DateFormatter.dateTimeFormatter.string(from: Date())
         
         return """
-        🧠 Emotional Reflection - \(timestamp)
+        🧠 thnk Reflection - \(timestamp)
         
         Emotion: \(primaryEmotion.capitalized)
         Summary: \(summary)

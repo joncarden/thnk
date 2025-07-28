@@ -35,8 +35,8 @@ struct ContentView: View {
         .animation(.easeInOut(duration: 0.8), value: showingSplash)
         .onAppear {
             loadDataStartDate()
-            // Show loading splash for appropriate duration, then transition
-            DispatchQueue.main.asyncAfter(deadline: .now() + 1.8) {
+            // Show loading splash for 2.5 seconds, then transition
+            DispatchQueue.main.asyncAfter(deadline: .now() + 2.5) {
                 showingLoadingSplash = false
             }
         }
@@ -57,7 +57,7 @@ struct ContentView: View {
                 .ignoresSafeArea()
             
             VStack(spacing: 0) {
-                // Top recording button (when analysis is shown)
+                // Minimal top recording button (when analysis is shown)
                 if analysisResult != nil {
                     HStack {
                         Spacer()
@@ -71,8 +71,8 @@ struct ContentView: View {
                         )
                         Spacer()
                     }
-                    .padding(.top, 20)
-                    .padding(.bottom, 16)
+                    .padding(.top, 4)
+                    .padding(.bottom, 4)
                 }
                 
                 // Main content area
