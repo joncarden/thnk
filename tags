@@ -1,0 +1,95 @@
+AnalysisResponse	thnk/Services/ClaudeService.swift	328
+AnalysisResult	thnk/Models/AnalysisResult.swift	3
+AnalysisResult	thnk/Models/AnalysisResult.swift	53
+AnalysisResult	thnk/Services/ClaudeService.swift	266
+AnalysisView	thnk/Views/AnalysisView.swift	11
+apiError	thnk/Services/ClaudeService.swift	343
+apiKeyNotConfigured	thnk/Services/ClaudeService.swift	338
+apiKey	thnk/Services/ClaudeService.swift	5
+audioFileNotFound	thnk/Services/SpeechService.swift	144
+AudioManager	thnk/Services/AudioManager.swift	7
+CaseIterable	thnk/Models/EmotionPattern.swift	20
+case	thnk/Services/ClaudeService.swift	309
+case	thnk/Services/ClaudeService.swift	310
+case	thnk/Services/ClaudeService.swift	338
+case	thnk/Services/ClaudeService.swift	339
+case	thnk/Services/ClaudeService.swift	340
+case	thnk/Services/ClaudeService.swift	341
+case	thnk/Services/ClaudeService.swift	342
+case	thnk/Services/ClaudeService.swift	343
+case	thnk/Services/ClaudeService.swift	344
+case	thnk/Services/ClaudeService.swift	345
+case	thnk/Services/ClaudeService.swift	346
+case	thnk/Services/SpeechService.swift	143
+case	thnk/Services/SpeechService.swift	144
+case	thnk/Services/SpeechService.swift	145
+case	thnk/Services/SpeechService.swift	146
+CGFloat	thnk/Views/ProcessingView.swift	4
+CGFloat	thnk/Views/RecordingView.swift	11
+ClaudeContent	thnk/Services/ClaudeService.swift	324
+ClaudeMessage	thnk/Services/ClaudeService.swift	315
+ClaudeRequest	thnk/Services/ClaudeService.swift	303
+ClaudeResponse	thnk/Services/ClaudeService.swift	320
+ClaudeServiceError	thnk/Services/ClaudeService.swift	337
+ClaudeService	thnk/Services/ClaudeService.swift	4
+CodingKeys	thnk/Services/ClaudeService.swift	308
+ContentView	thnk/App/ContentView.swift	4
+currentSuggestionIndex	thnk/Views/AnalysisView.swift	14
+DateFormatter	thnk/Models/AnalysisResult.swift	42
+decodingFailed	thnk/Services/ClaudeService.swift	344
+Double	thnk/Views/LoadingSplashView.swift	4
+Double	thnk/Views/SplashView.swift	4
+EmotionalEntry	thnk/Models/EmotionalEntry.swift	5
+EmotionalTrajectory	thnk/Models/EmotionPattern.swift	38
+EmotionIndicator	thnk/Views/AnalysisView.swift	205
+EmotionPattern	thnk/Models/EmotionPattern.swift	3
+encodingFailed	thnk/Services/ClaudeService.swift	340
+@Environment	thnk/App/ContentView.swift	/^    @Environment(\\.managedObjectContext) private v/
+errorDescription	thnk/Services/ClaudeService.swift	348
+errorDescription	thnk/Services/SpeechService.swift	148
+Error	thnk/Services/ClaudeService.swift	341
+hasSignificantPatterns	thnk/Services/PatternService.swift	9
+init	thnk/Models/AnalysisResult.swift	/^    init(id: UUID = UUID(), primaryEmotion: String/
+init	thnk/Models/EmotionPattern.swift	/^    init(date: Date, entries: [EmotionalEntry], do/
+init	thnk/Models/EmotionPattern.swift	/^    init(emotion: String, frequency: Int, timeRang/
+init	thnk/Views/ShareSheet.swift	/^    init(activityItems: [Any], applicationActiviti/
+Int	thnk/Services/ClaudeService.swift	343
+invalidJSONResponse	thnk/Services/ClaudeService.swift	345
+invalidResponse	thnk/Services/ClaudeService.swift	342
+invalidURL	thnk/Services/ClaudeService.swift	339
+isRecording	thnk/Services/AudioManager.swift	8
+LoadingSplashView	thnk/Views/LoadingSplashView.swift	3
+maxTokens	thnk/Services/ClaudeService.swift	310
+model	thnk/Services/ClaudeService.swift	309
+networkError	thnk/Services/ClaudeService.swift	341
+@objc	thnk/Models/EmotionalEntry.swift	/^@objc(EmotionalEntry)$/
+parseResponse	thnk/Services/ClaudeService.swift	/^    private func parseResponse(_ response: ClaudeR/
+parsingFailed	thnk/Services/ClaudeService.swift	346
+PatternAnalysis	thnk/Models/EmotionPattern.swift	65
+PatternService	thnk/Services/PatternService.swift	5
+PersistenceController	thnk/App/ThnkApp.swift	16
+persistenceController	thnk/App/ThnkApp.swift	6
+ProcessingView	thnk/Views/ProcessingView.swift	3
+recognizerNotAvailable	thnk/Services/SpeechService.swift	143
+RecordingView	thnk/Views/RecordingView.swift	3
+sendRequest	thnk/Services/ClaudeService.swift	/^    private func sendRequest(_ request: ClaudeRequ/
+SFSpeechRecognizerDelegate	thnk/Services/SpeechService.swift	/^extension SpeechService: SFSpeechRecognizerDelegat/
+shared	thnk/App/ThnkApp.swift	17
+ShareSheet	thnk/Views/ShareSheet.swift	4
+speechRecognizer	thnk/Services/SpeechService.swift	7
+SpeechServiceError	thnk/Services/SpeechService.swift	142
+SpeechService	thnk/Services/SpeechService.swift	6
+speechServiceUnavailable	thnk/Services/SpeechService.swift	146
+SplashView	thnk/Views/SplashView.swift	3
+String	thnk/Services/ClaudeService.swift	251
+String	thnk/Services/ClaudeService.swift	348
+String	thnk/Services/SpeechService.swift	148
+SuggestionView	thnk/Views/SuggestionView.swift	3
+ThnkApp	thnk/App/ThnkApp.swift	5
+transcriptionFailed	thnk/Services/SpeechService.swift	145
+var	thnk/Services/ClaudeService.swift	348
+var	thnk/Services/SpeechService.swift	148
+View	thnk/Views/AnalysisView.swift	/^    var body: some View {$/
+View	thnk/Views/SuggestionView.swift	/^    var body: some View {$/
+VStack	thnk/Views/RecordingView.swift	/^    VStack(spacing: 40) {$/
+VStack	thnk/Views/SuggestionView.swift	/^    VStack(spacing: 20) {$/

@@ -1,0 +1,73 @@
+# Swift Symbols Index - Thnk iOS App
+
+Generated from Swift source files analysis
+
+## Classes
+AudioManager (./thnk/Services/AudioManager.swift:7)
+ClaudeService (./thnk/Services/ClaudeService.swift:4)
+PatternService (./thnk/Services/PatternService.swift:5)
+PersistenceController (./thnk/App/ThnkApp.swift:16)
+SpeechService (./thnk/Services/SpeechService.swift:6)
+
+## Structs
+AnalysisResult (./thnk/Models/AnalysisResult.swift:3)
+AnalysisView (./thnk/Views/AnalysisView.swift:11)
+ContentView (./thnk/App/ContentView.swift:4)
+EmotionIndicator (./thnk/Views/AnalysisView.swift:205)
+EmotionPattern (./thnk/Models/EmotionPattern.swift:3)
+EmotionalTrajectory (./thnk/Models/EmotionPattern.swift:38)
+LoadingSplashView (./thnk/Views/LoadingSplashView.swift:3)
+PatternAnalysis (./thnk/Models/EmotionPattern.swift:65)
+ProcessingView (./thnk/Views/ProcessingView.swift:3)
+RecordingView (./thnk/Views/RecordingView.swift:3)
+ShareSheet (./thnk/Views/ShareSheet.swift:4)
+SplashView (./thnk/Views/SplashView.swift:3)
+SuggestionView (./thnk/Views/SuggestionView.swift:3)
+ThnkApp (./thnk/App/ThnkApp.swift:5)
+
+## Enums
+ClaudeServiceError (./thnk/Services/ClaudeService.swift:337)
+SpeechServiceError (./thnk/Services/SpeechService.swift:142)
+
+## File Locations by Component
+
+### App Core
+- ThnkApp.swift: Main app entry point with Core Data setup
+- ContentView.swift: Root view navigation
+
+### Services Layer
+- AudioManager.swift: Audio recording, playback, and file management
+- ClaudeService.swift: AI analysis integration with error handling
+- PatternService.swift: Emotional pattern detection and analysis
+- SpeechService.swift: Speech-to-text conversion with permissions
+
+### View Layer
+- AnalysisView.swift: Results display with emotion indicators
+- LoadingSplashView.swift: Loading state presentation
+- ProcessingView.swift: Processing state UI
+- RecordingView.swift: Voice recording interface
+- ShareSheet.swift: System sharing integration
+- SplashView.swift: App launch screen
+- SuggestionView.swift: AI suggestion presentation
+
+### Data Models
+- AnalysisResult.swift: Core analysis data structure
+- EmotionalEntry.swift: Individual emotional data points
+- EmotionPattern.swift: Pattern analysis and trajectory modeling
+
+## Key Protocols & Conformances
+- ObservableObject: AudioManager, ClaudeService, PatternService, SpeechService
+- View: All view structs
+- Identifiable: AnalysisResult, EmotionPattern, EmotionalTrajectory
+- Codable: AnalysisResult, EmotionPattern
+- LocalizedError: ClaudeServiceError, SpeechServiceError
+- UIViewControllerRepresentable: ShareSheet
+
+## Import Dependencies by File
+Common imports across files:
+- SwiftUI (Views)
+- Combine (Services)
+- Foundation (All)
+- AVFoundation (AudioManager)
+- Speech (SpeechService)
+- CoreData (ThnkApp)
